@@ -16,5 +16,10 @@ namespace EsercizioClasse_Mortara
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Persona tommy = new Persona("Tommaso", "Mortara", 16);
+        }
     }
 }

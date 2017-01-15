@@ -25,21 +25,33 @@ namespace EsercizioClasse_Mortara
             {
                 return _age;
             }
+        }
 
         private string _fCode;
         public string fCode
         {
-            set
+            get
             {
-                _fCode += "NOME: " + name;
-                _fCode += "COGNOME: " + surname;
-                _fCode += "ANNI: " + age;
+                return _fCode = name + surname + age;
             }
             
         }
 
+        public Persona(string fName, string lName, int years)
+        {
+            _name = fName;
+            _surname = lName;
+            _age = years;
+            Console.WriteLine(describe(_name, _surname, _age));
+        }
 
+        public virtual string describe( string fName , string lName, int years)
+        {
+            string output = "NOME: " + fName + "\r\n";
+                   output += "COGNOME: " + lName + "\r\n";
+                   output += "ANNI: " + years + "\r\n";
 
-        public void Persona()
+            return output; 
+        }
     }
 }

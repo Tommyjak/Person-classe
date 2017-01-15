@@ -1,1 +1,10 @@
 c:\users\2f17\documents\visual studio 2015\Projects\EsercizioClasse_Mortara\EsercizioClasse_Mortara\bin\Debug\EsercizioClasse_Mortara.exe.config
+C:\Users\tommaso\Desktop\Tommy\C#_2016-2017\Person-classe\EsercizioClasse_Mortara\EsercizioClasse_Mortara\bin\Debug\EsercizioClasse_Mortara.exe.config
+C:\Users\tommaso\Desktop\Tommy\C#_2016-2017\Person-classe\EsercizioClasse_Mortara\EsercizioClasse_Mortara\obj\Debug\EsercizioClasse_Mortara.Properties.Resources.resources
+C:\Users\tommaso\Desktop\Tommy\C#_2016-2017\Person-classe\EsercizioClasse_Mortara\EsercizioClasse_Mortara\obj\Debug\EsercizioClasse_Mortara.csproj.GenerateResource.Cache
+C:\Users\tommaso\Desktop\Tommy\C#_2016-2017\Person-classe\EsercizioClasse_Mortara\EsercizioClasse_Mortara\bin\Debug\EsercizioClasse_Mortara.exe
+C:\Users\tommaso\Desktop\Tommy\C#_2016-2017\Person-classe\EsercizioClasse_Mortara\EsercizioClasse_Mortara\bin\Debug\EsercizioClasse_Mortara.pdb
+C:\Users\tommaso\Desktop\Tommy\C#_2016-2017\Person-classe\EsercizioClasse_Mortara\EsercizioClasse_Mortara\obj\Debug\EsercizioClasse_Mortara.exe
+C:\Users\tommaso\Desktop\Tommy\C#_2016-2017\Person-classe\EsercizioClasse_Mortara\EsercizioClasse_Mortara\obj\Debug\EsercizioClasse_Mortara.pdb
+C:\Users\tommaso\Desktop\Tommy\C#_2016-2017\Person-classe\EsercizioClasse_Mortara\EsercizioClasse_Mortara\obj\Debug\EsercizioClasse_Mortara.Form1.resources
+C:\Users\tommaso\Desktop\Tommy\C#_2016-2017\Person-classe\EsercizioClasse_Mortara\EsercizioClasse_Mortara\obj\Debug\EsercizioClasse_Mortara.csprojResolveAssemblyReference.cache
