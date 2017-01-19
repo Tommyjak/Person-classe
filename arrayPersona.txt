@@ -3,5 +3,5 @@ private string [] cognomi= {"Rossi","Becchi","Davoli","Sambuchi"}
 private Persona generateRandomPersona()
 {
 	Random rnd = new Random();
-	return new Persona(nomi[rnd.next(?)],cognomi[rnd.next(?)],16);
+	return new Persona(nomi[rnd.next(0,4)],cognomi[rnd.next(0,4)],16);
 }
