@@ -8,18 +8,19 @@ namespace EsercizioClasse_Mortara
 {
     class Persona
     {
-        private string _name;
-        public string name { get; set; }
+        private string _fName;
+        public string fName { get; set; }
 
-        private string _surname;
-        public string surname { get; set;} 
+        private string _lName;
+        public string lName { get; set;} 
 
         private int _age;
         public int age
         {
             set
             {
-                if (_age <= 0) _age = 1;
+                if (value <= 0) value = 1;
+                _age = value;
             }
             get
             {
@@ -32,24 +33,24 @@ namespace EsercizioClasse_Mortara
         {
             get
             {
-                return _fCode = name + surname + age;
+                return _fCode = fName + lName + age;
             }
             
         }
 
-        public Persona(string fName, string lName, int years)
+        public Persona(string fName, string lName, int age)
         {
-            _name = fName;
-            _surname = lName;
-            _age = years;
-            Console.WriteLine(describe(_name, _surname, _age));
+            this.fName = fName;
+            this.lName = lName;
+            this.age = age;
+            Console.WriteLine(describe());
         }
 
-        public virtual string describe( string fName , string lName, int years)
+        public virtual string describe()
         {
             string output = "NOME: " + fName + "\r\n";
                    output += "COGNOME: " + lName + "\r\n";
-                   output += "ANNI: " + years + "\r\n";
+                   output += "ANNI: " + age + "\r\n";
 
             return output; 
         }

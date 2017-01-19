@@ -11,19 +11,15 @@ namespace EsercizioClasse_Mortara
         private string _sezione;
         public string sezione { get; set; }
 
-        public Studente(string fName, string lName, int years , string sez): base(fName, lName, years)
+        public Studente(string fName, string lName, int years , string sezione): base(fName, lName, years)
         {
-            _sezione = sez;
-            Console.WriteLine(describe(fName, lName, years, _sezione));
+            _sezione = sezione;
+            Console.WriteLine(describe());
         }
 
-        public override string describe(string fName, string lName, int years, string sez)
+        public override string describe()
         {
-            base.describe(fName, lName, years);
-
-            string output = "SEZIONE: " + sez + "\r\n";
-
-            return output;
+            return base.describe() + ("SEZIONE: " + sezione + "\r\n"); 
         }
 
     }
